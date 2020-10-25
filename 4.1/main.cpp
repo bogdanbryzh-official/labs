@@ -37,5 +37,7 @@ int main()
         break;
     }
 
+    cin.get();
+    cout << "\e[1;1H\e[2J";
     return 0;
 }

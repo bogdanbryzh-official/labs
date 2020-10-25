@@ -26,6 +26,13 @@ int main()
             cout << "w = " << (z - sin(z)) << endl;
         }
     }
+    else
+    {
+        cout << "Your number exited maximum quota))" << endl;
+    }
 
+    cin.get();
+
+    cout << "\e[1;1H\e[2J";
     return 0;
 }
