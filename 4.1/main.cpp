@@ -24,7 +24,7 @@ int main()
         break;
 
     case 'b':
-        for (x = 0.6; x <= 9; x += 1.5)
+        for (x = 0.6; x <= 9.6; x += 1.5)
         {
             cout << "x = " << x << endl;
             y = (x + pow(cos(2 * x), 2)) / (x + 2);
@@ -33,7 +33,7 @@ int main()
         break;
 
     default:
-    cout << "You didn't choose correct variant" << endl;
+        cout << "You didn't choose correct variant" << endl;
         break;
     }
 
